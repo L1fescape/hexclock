@@ -1,0 +1,20 @@
+{
+  "name": "hex-clock",
+  "version": "0.1.0",
+  "description": "A clock that converts the current hour, minute, and second to their respective hexadecimal values, combines them, and displays that color.",
+  "main": "clock.js",
+  "scripts": {
+    "build": "./node_modules/browserify/bin/cmd.js clock.js > dist.js"
+  },
+  "author": "Andrew Kennedy <andrew@akenn.org>",
+  "license": "ISC",
+  "dependencies": {
+    "randomcolor": "^0.2.0",
+    "jquery": "^2.1.3",
+    "jquery-ui": "^1.10.5",
+    "moment": "^2.9.0"
+  },
+  "devDependencies": {
+    "browserify": "^9.0.3"
+  }
+}
